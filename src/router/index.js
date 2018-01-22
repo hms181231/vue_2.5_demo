@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import Login from '@/components/login';
-import Table from '@/components/table';
+// import Table from '@/components/table';
 
 Vue.use(Router);
 
@@ -13,11 +13,11 @@ export default new Router({
       name: 'HelloWorld',
       component: HelloWorld,
     },
-    {
-      path: '/Table',
-      name: 'Table',
-      component: Table,
-    },
+    // {
+    //   path: '/Table',
+    //   name: 'Table',
+    //   component: Table,
+    // },
     {
       path: '/Login',
       name: 'Login',

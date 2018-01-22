@@ -35,12 +35,20 @@ export default {
   },
   methods: {
     onSubmit() {
-      axios
-        .post('http://localhost:3001/api/login', this.formLabelAlign)
+      const result = axios.post(
+        'http://localhost:3001/api/login',
+        this.formLabelAlign,
+      );
+
+      result
         .then(({ data }) => {
           this.message = data.message;
         })
-        .catch(() => {});
+        .catch(() => {
+          // this.message = message;
+          this.message = '网络问题';
+        });
+      return result;
     },
   },
 };
@@ -49,6 +57,3 @@ export default {
 <style scoped>
 
 </style>
-
-
-

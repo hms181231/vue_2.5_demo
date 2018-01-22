@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login 快照html 1`] = `
+<div>
+  <p
+    style="color: red;"
+  />
+   
+  <form
+    class="el-form el-form--label-right"
+  >
+    <div
+      class="el-form-item"
+    >
+      <label
+        class="el-form-item__label"
+        style="width: 80px;"
+      >
+        用户名
+      </label>
+      <div
+        class="el-form-item__content"
+        style="margin-left: 80px;"
+      >
+        <div
+          class="el-input"
+        >
+          <!---->
+          <input
+            autocomplete="off"
+            class="el-input__inner"
+            rows="2"
+            type="text"
+            validateevent="true"
+          />
+          <!---->
+          <!---->
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+     
+    <div
+      class="el-form-item"
+    >
+      <label
+        class="el-form-item__label"
+        style="width: 80px;"
+      >
+        密码
+      </label>
+      <div
+        class="el-form-item__content"
+        style="margin-left: 80px;"
+      >
+        <div
+          class="el-input"
+        >
+          <!---->
+          <input
+            autocomplete="off"
+            class="el-input__inner"
+            rows="2"
+            type="text"
+            validateevent="true"
+          />
+          <!---->
+          <!---->
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+     
+    <div
+      class="el-form-item"
+    >
+      <!---->
+      <div
+        class="el-form-item__content"
+        style="margin-left: 80px;"
+      >
+        <button
+          class="el-button el-button--primary"
+          type="button"
+        >
+          <!---->
+          <!---->
+          <span>
+            登录
+          </span>
+        </button>
+        <!---->
+      </div>
+    </div>
+  </form>
+</div>
+`;
