@@ -17,18 +17,19 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
-    <tables/>
+    <tables v-model="doubi"/>
   </div>
 </template>
 
 <script>
-import Tables from './table.vue';
+import Tables from './table';
 
 export default {
   name: 'HelloWorld',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      doubi: ''
     };
   },
   components: {

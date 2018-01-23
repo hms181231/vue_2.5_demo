@@ -1,14 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Table li标签的for循环 1`] = `
-<ul>
-  <li>
-    1
-  </li>
-  <li>
-    2
-  </li>
-</ul>
+<div>
+  <ul>
+    <li>
+      1
+    </li>
+    <li>
+      2
+    </li>
+  </ul>
+   
+  <input
+    type="text"
+  />
+</div>
 `;
 
-exports[`Table props 1`] = `<ul />`;
+exports[`Table props 1`] = `
+<div>
+  <ul />
+   
+  <input
+    type="text"
+  />
+</div>
+`;

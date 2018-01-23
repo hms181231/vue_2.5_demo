@@ -20,4 +20,12 @@ describe('Table', () => {
     expect(wrapper.vm.data).toEqual([1, 2]);
     expect(wrapper.element).toMatchSnapshot();
   });
+
+  it('computed test', () => {
+    const callback = jest.fn();
+    wrapper.vm.$on(wrapper.vm.$options.model.event, callback);
+    wrapper.vm.meizhi = 'test';
+    expect(callback).toBeCalledWith('test');
+    expect(wrapper.vm.test).toBe('test');
+  });
 });
